@@ -1,4 +1,3 @@
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { NavLink } from 'react-router-dom'
@@ -12,28 +11,14 @@ const Sidebar =() =>{
             <NavLink exact = "true" activeclassname = "active" to = "/">
                 <FontAwesomeIcon icon={faHome} color = "#59218a"/>
             </NavLink>
-            <NavLink exact = "true" activeclassname = "active" className = 'education-link' to = "/education">
+            <NavLink exact = "true" activeclassname = "active" className = 'education-link' to = "/Education">
                 <FontAwesomeIcon icon={faUser} color = "#59218a"/>
             </NavLink>
-            <NavLink exact = "true" activeclassname = "active" className = 'projects-link' to = "/projects">
+            <NavLink exact = "true" activeclassname = "active" className = 'projects-link' to = "/Projects">
                 <FontAwesomeIcon icon={faEnvelope} color = "#59218a"/>
             </NavLink>
         </nav>
-        <ul>
-        <li>
-                <a
-                target="_blank"
-                rel="noreferrer"
-                href = "https://www.linkedin.com/in/warrick-tsui-1a83772a3/">
-                    <FontAwesomeIcon icon= {faLinkedin} color = "#59218a"/>
-                </a>
-            </li>
-            <li>
-                <a target="_blank" rel="noreferrer" href = "https://github.com/WarrickT">
-                    <FontAwesomeIcon icon= {faGithub} color = "#59218a"/>
-                </a>
-            </li>
-        </ul>
+
     </div>
     )
 }

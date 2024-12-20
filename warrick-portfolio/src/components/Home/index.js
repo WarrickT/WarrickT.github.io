@@ -21,11 +21,8 @@ const Home = () => {
             >
             </div>
             <div className = "text-zone">
-                <h1> Hi, I'm Warrick!
+                <h1> Hi, I'm Warrick Tsui!
                 </h1>
-                <h2>
-                    University of Toronto Computer Engineering Student
-                </h2>
             </div>
             
 

@@ -1,0 +1,18 @@
+.projects-page{
+    position: relative;
+    height: 100vh;
+    overflow: auto;
+
+    .MyProjects{
+        overflow: auto;
+        position: absolute;
+        left: 20%;
+        top: 15%;
+        transform: translateY(-45%);
+        vertical-align: middle;
+        max-height: 90%;
+        display: inline;
+        opacity: 0;
+        animation: fadeIn 1s forwards;
+    }
+}
