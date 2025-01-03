@@ -1,25 +1,13 @@
 import CodeSky from '../../assets/images/CodeSky.png';
-import WarrickGraduation from '../../assets/images/Graduation.png';
+import UTFRImage from '../../assets/images/UTFR.jpg';
+import WellnessRoom from '../../assets/images/WellnessRoom.png';
 import './index.scss';
+
 
 const Education = () =>{
     return(
         
         <div className='education-page'>
-            <div className='AboutMe'>
-            <h1> About Me!
-            </h1>
-            </div>
-
-            <div className = 'bodyText'>
-            <p>
-                Hello! My name is Warrick Chun Wang Tsui, an ambitious undergraduate student at University of Toronto pursuing a degree in Computer Engineering. 
-            </p>
-                </div>
-
-            <div className = 'graduation-image'>
-            <img src = {WarrickGraduation}/>
-            </div>
 
             <div className='Experiences'>
             <h2> Recent Experiences!
@@ -47,17 +35,18 @@ const Education = () =>{
             </h3>
             </div>
 
-            <div className = 'Job2Text'>
-            <p2>
-                In November, I've taken on the new challenge of joining the UTFR Driverless Team. I am currently working on an Error Graph Widget, which displays the difference between the experimental and projected locations of cones. These cones are used for testing the design team vehicles. 
-            </p2>
-                </div>
-
+            <div className = 'UTFRImage'>
+                <img src = {UTFRImage}/>
+            </div>
             
             <div className='Job3'>
             <h3> Team Leader: Engineering 
             Strategies and Practice II
             </h3>
+            </div>
+
+            <div className = 'wellnessRoom-image'>
+                <img src = {WellnessRoom}/>
             </div>
 
             <div className = 'Job3Text'>
@@ -66,8 +55,6 @@ const Education = () =>{
                 for the details of our conceptual design. 
             </p>
                 </div>
-
-
             
             <div className='Job4'>
             <h6> Editor: Programming Classroom Instructor

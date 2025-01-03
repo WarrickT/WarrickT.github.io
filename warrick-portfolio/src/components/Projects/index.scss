@@ -3,11 +3,11 @@
     height: 100vh;
     overflow: auto;
 
-    .MyProjects{
+    .Project1{
         overflow: auto;
         position: absolute;
-        left: 20%;
-        top: 15%;
+        left: 10%;
+        top: calc(5% + 12.5vw);
         transform: translateY(-45%);
         vertical-align: middle;
         max-height: 90%;
@@ -15,4 +15,172 @@
         opacity: 0;
         animation: fadeIn 1s forwards;
     }
+
+    .tetrisHome-image{
+        overflow: hidden;
+        position: absolute;
+    
+        width: 20vw;
+        max-width: 250px; /* Change this to your desired width */
+        height: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        top: 12.5vw;
+        right: 5%;
+
+        opacity: 0;
+        animation: fadeIn 1s forwards;
+
+        img {
+            display: block;
+            width: 100%; 
+            height: auto; /* Ensures the image fills the container's height */
+            object-fit: cover; /* Optional: Maintains the image's aspect ratio while filling the container */
+            outline: none;
+        }
+        a{
+            display: block;
+            text-decoration: none;
+            outline: none;
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+        a:hover, a:focus{
+            outline: none;
+            border: none;
+        }
+    }
+
+    .functioningTetris-image{
+        overflow: hidden;
+        position: absolute;
+    
+        width: 20vw;
+        max-width: 250px; /* Change this to your desired width */
+        height: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        top: 12.5vw;
+        right: 5%;
+
+        opacity: 0;
+        animation: fadeIn 1s forwards;
+
+        img {
+            width: 100%;  /* Ensures the image fills the container's width */
+            height: auto; /* Ensures the image fills the container's height */
+            object-fit: cover; /* Optional: Maintains the image's aspect ratio while filling the container */
+        }
+    }
+    
+
+    h1{
+
+        color: #000;
+        font-size: 3vw;
+        font-family:'Coolvetica';
+        font-weight: 400;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .Project1Text{
+        overflow: auto;
+        position: absolute;
+        display: flex;
+        left: 10%;
+        top: calc(5% + 12.5vw);
+        transform: translateY(10%);
+        vertical-align: middle;
+        opacity: 0;
+        animation: fadeIn 1s forwards;
+
+    }
+    p{
+        color: #000;
+        font-size: 1.5vw; /* Font size scales with the width of the viewport */
+        font-family:'Coolvetica';
+        width: 45vw;
+        font-weight: 150;
+    }
+
+    .Project2{
+        overflow: auto;
+        position: absolute;
+        left: 10%;
+        top: calc(5% + 27.5vw);
+        transform: translateY(-45%);
+        vertical-align: middle;
+        max-height: 90%;
+        display: inline;
+        opacity: 0;
+        animation: fadeIn 1s forwards;
+    }
+    .Project2Text{
+        overflow: auto;
+        position: absolute;
+        display: flex;
+        left: 10%;
+        top: calc(5% + 27.5vw);
+        transform: translateY(10%);
+        vertical-align: middle;
+        opacity: 0;
+        animation: fadeIn 1s forwards;
+    }
+    .ReliefGrid-image{
+        overflow: hidden;
+        position: absolute;
+    
+        width: 35vw;
+        max-width: 500px; /* Change this to your desired width */
+        height: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        top: calc(5% + 27.5vw);
+        right: 5%;
+
+        opacity: 0;
+        animation: fadeIn 1s forwards;
+
+        img {
+            width: 100%;  /* Ensures the image fills the container's width */
+            height: auto; /* Ensures the image fills the container's height */
+            object-fit: cover; /* Optional: Maintains the image's aspect ratio while filling the container */
+        }
+    }
+    .Project3{
+        overflow: auto;
+        position: absolute;
+        left: 10%;
+        top: calc(5% + 47.5vw);
+        transform: translateY(-45%);
+        vertical-align: middle;
+        max-height: 90%;
+        display: inline;
+        opacity: 0;
+        animation: fadeIn 1s forwards;
+    }
+    .Project3Text{
+        overflow: auto;
+        position: absolute;
+        display: flex;
+        left: 10%;
+        top: calc(5% + 50vw);
+        transform: translateY(10%);
+        vertical-align: middle;
+        opacity: 0;
+        animation: fadeIn 1s forwards;
+    }
+    p1{
+        color: #000;
+        font-size: 1.5vw; /* Font size scales with the width of the viewport */
+        font-family:'Coolvetica';
+        width: 80vw;
+        font-weight: 150;
+    }
+
 }
