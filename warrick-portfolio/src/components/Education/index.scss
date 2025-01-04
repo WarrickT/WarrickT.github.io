@@ -1,241 +1,70 @@
-.education-page{
+.education-page {
+    padding: 5vw; /* Adding some space to the sides */
     position: relative;
-    height: 100vh;
+    margin-top: 10vw;
+    height: calc(100vh - 10vw);
     overflow: auto;
 
-    h1{
-        color: #000;
-        font-size: 3.6vw;
-        font-family:'Coolvetica';
+    /* Title */
+    h2 {
+        font-size: 3.5vw;
+        font-family: 'Coolvetica', sans-serif;
         font-weight: 400;
         text-align: center;
-        margin-top: 0;
+        color: #333;
         margin-bottom: 40px;
     }
 
-    
-    p{
-        color: #000;
-        font-size: 1.5vw; /* Font size scales with the width of the viewport */
-        font-family:'Coolvetica';
-        width: 45vw;
-        font-weight: 150;
-
-    }
-    .graduation-image{
-        overflow: hidden;
-        position: absolute;
-    
-        width: 12.5vw;
-        max-width: 250px; /* Change this to your desired width */
-        height: auto;
-        margin-left: 20px;
-        margin-right: 20px;
-
-        top: 20%;
-        right: 5%;
-
-        opacity: 0;
-        animation: fadeIn 1s forwards;
-
-        img {
-            width: 100%;  /* Ensures the image fills the container's width */
-            height: auto; /* Ensures the image fills the container's height */
-            object-fit: cover; /* Optional: Maintains the image's aspect ratio while filling the container */
-            border-radius: 50%;
-        }
+    /* Job Block */
+    .Job {
+        background-color: #fff;
+        margin-bottom: 30px;
+        padding: 2vw;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 
-    @keyframes fadeIn{
-        to{
-            opacity: 1;
-        }
-    }
-
-
-    .Experiences{
-        overflow: auto;
-        position: absolute;
-        left: 10%;
-        top: calc(5% + 12.5vw);
-        transform: translateY(-45%);
-        vertical-align: middle;
-        max-height: 90%;
-
-
-        display: inline;
-        opacity: 0;
-        animation: fadeIn 1s forwards;
-    }
-    h2{
-        color: #000;
-        font-size: 3.6vw;
-        font-family:'Coolvetica';
-        font-weight: 400;
+    /* Job Header (Title) */
+    .JobHeader {
         text-align: center;
-        margin-top: 0;
-        margin-bottom: 40px;
+        margin-bottom: 1.5vw;
     }
 
-    .Job1{
-        overflow: auto;
-        position: absolute;
-        left: 10%;
-        top: calc(5% + 17.5vw);
-        transform: translateY(-45%);
-        vertical-align: middle;
-        max-height: 90%;
-
-
-        display: inline;
-        opacity: 0;
-        animation: fadeIn 1s forwards;
-    }
-    h3{
-        color: #000;
+    .JobHeader h3 {
         font-size: 2.6vw;
-        font-family:'Coolvetica';
+        font-family: 'Coolvetica', sans-serif;
         font-weight: 400;
-        text-align: center;
-        margin-top: 0;
-        margin-bottom: 40px;
+        color: #000;
     }
-    .Job1Text{
-        overflow: auto;
-        position: absolute;
+
+    /* Job Image */
+    .JobImage {
         display: flex;
-        left: 10%;
-        top: calc(5% + 17.5vw);
-        transform: translateY(10%);
-        vertical-align: middle;
-        opacity: 0;
-        animation: fadeIn 1s forwards;
-    }
-    .codesky-image{
-        overflow: hidden;
-        position: absolute;
-    
-        width: 15vw;
-        max-width: 250px; /* Change this to your desired width */
-        height: auto;
-        margin-left: 20px;
-        margin-right: 20px;
-
-        top: calc(5% + 15vw);
-        right: 5%;
-
-        opacity: 0;
-        animation: fadeIn 1s forwards;
-
-        img {
-            width: 100%;  /* Ensures the image fills the container's width */
-            height: auto; /* Ensures the image fills the container's height */
-            object-fit: cover; /* Optional: Maintains the image's aspect ratio while filling the container */
-        }
-    }
-    .UTFRImage{
-        overflow: hidden;
-        position: absolute;
-    
-        width: 15vw;
-        max-width: 250px; /* Change this to your desired width */
-        height: auto;
-        margin-left: 20px;
-        margin-right: 20px;
-
-        top: calc(5% + 33.5vw);
-        right: 5%;
-
-        opacity: 0;
-        animation: fadeIn 1s forwards;
-
-        img {
-            width: 100%;  /* Ensures the image fills the container's width */
-            height: auto; /* Ensures the image fills the container's height */
-            object-fit: cover; /* Optional: Maintains the image's aspect ratio while filling the container */
-        }
-
-    }
-    .Job2{
-        overflow: auto;
-        position: absolute;
-        display: flex;
-        left: 10%;
-        top: calc(5% + 32.5vw);
-        transform: translateY(10%);
-        vertical-align: middle;
-        opacity: 0;
-        animation: fadeIn 1s forwards;
-
-        display: inline;
-        opacity: 0;
-        animation: fadeIn 1s forwards;
+        justify-content: center;
+        margin-bottom: 1.5vw;
     }
 
-    .Job2Text{
-        overflow: auto;
-        position: absolute;
-        display: flex;
-        left: 10%;
-        top: calc(5% + 35vw);
-        transform: translateY(10%);
-
-        vertical-align: middle;
-        opacity: 0;
-        animation: fadeIn 1s forwards;
-    }
-
-    .Job3{
-        overflow: auto;
-        position: absolute;
-        left: 10%;
-        top: calc(5% + 57.5vw);
-        width: 45vw;
-        transform: translateY(-45%);
-        vertical-align: middle;
-        max-height: 90%;
-        display: inline;
-        opacity: 0;
-        animation: fadeIn 1s forwards;
-    }
-    .wellnessRoom-image{
-        overflow: hidden;
-        position: absolute;
-    
+    .JobImage img {
         width: 25vw;
-        max-width: 400px; /* Change this to your desired width */
+        max-width: 400px;
         height: auto;
-        margin-left: 20px;
-        margin-right: 20px;
+        border-radius: 8px;
+        object-fit: cover;
+    }
 
-        top: calc(5% + 57.5vw);
-        right: 5%;
-
-        opacity: 0;
-        animation: fadeIn 1s forwards;
-
-        img {
-            width: 100%;  /* Ensures the image fills the container's width */
-            height: auto; /* Ensures the image fills the container's height */
-            object-fit: cover; /* Optional: Maintains the image's aspect ratio while filling the container */
-            border-radius: 5%;
+    /* Job Text (Description) */
+    .JobText {
+        p {
+            font-size: 1.5vw;
+            font-family: 'Coolvetica', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            text-align: justify;
         }
     }
 
-    .Job3Text{
-        overflow: auto;
-        position: absolute;
-        display: flex;
-        left: 10%;
-        top: calc(5% + 58.5vw);
-        transform: translateY(10%);
-        vertical-align: middle;
-        opacity: 0;
-        animation: fadeIn 1s forwards;
+    /* Ensuring job blocks are spaced nicely */
+    .Job:last-child {
+        margin-bottom: 0;
     }
-    
-
-
-
 }
-

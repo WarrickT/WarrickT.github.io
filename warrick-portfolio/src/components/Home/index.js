@@ -2,8 +2,6 @@ import { useState } from 'react';
 import WarrickGraduation from '../../assets/images/Graduation.png';
 import './index.scss';
 
-
-
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const jobArray = ['E', 'n','g','i','n','e','e','r','i','n','g', ' ', 's','t','u','d','e','n','t']
@@ -21,7 +19,8 @@ const Home = () => {
 
             <div className = 'bodyText'>
             <p>
-                Hello! My name is Warrick Chun Wang Tsui, an ambitious undergraduate student at University of Toronto pursuing a degree in Computer Engineering. I am passionate about computer software, and I love to solve problems through learning programming languages and creating applications! I enjoy participating in hack-a-thons, 
+                Hello! My name is Warrick Chun Wang Tsui, an ambitious undergraduate student at University of Toronto pursuing a degree in Computer Engineering. I am passionate about solving all kinds of problems using software engineering skills and tools. 
+
             </p>
                 </div>
 
@@ -30,47 +29,60 @@ const Home = () => {
                     I have experience in...
                 </h1>
             </div>
+                <div className = 'frontEndBox'>
+                    <div className = 'FrontendTitle'>
+                    <h2>
+                        Frontend Programming
+                    </h2>
+                </div>
 
-            <div className = 'FrontendTitle'>
-                <h2>
-                    Frontend Programming
-                </h2>
+                <div className = 'FrontendBody'>
+                    <p>
+                        - JavaScript <br/>
+                        - HTML <br/>
+                        - CSS <br/>
+                        &emsp; (Fun Fact...I currently teach the three languages above!) <br />
+                        - React.js <br />
+                    </p>
             </div>
 
-            <div className = 'FrontendBody'>
-                <p>
-                    - Fluent with JavaScript, HTML, and CSS <br />
-                    - Experience in building responsive sites using React.JS <br />
-                </p>
-            </div>
-
-            <div className = 'BackendTitle'>
+                </div>
+                <div className = 'backendBox'>
+                <div className = 'BackendTitle'>
                 <h2>
-                    Backend Programming
+                    Backend Programming 
                 </h2>
             </div>
 
             <div className = 'BackendBody'>
                 <p>
-                    - 2+ years of experience in Python and Java
-                    - 1+ year of experience in C and C++
+                    - Python  <br/>
+                    &emsp; - Experience with Flask <br/>
+                    - Java  <br/>
+                    &emsp; - Selenium (Webscraping) <br/>
+                    - C, C++  <br/>
+                    - Version system control (Git) <br/>
+                    - Firebase
                 </p>
             </div>
-            <div className = 'HardwareTitle'>
-                <h2>
-                    HDL and Assembly
-                </h2>
-            </div>
-            <div className = 'HardwareBody'>
-                <p>
-                    - Built a functional game using Verilog
-                    - 
-                </p>
-            </div>
+        
+                </div>
+                <div className = 'hardwareBox'>
+                    <div className = 'HardwareTitle'>
+                    <h2>
+                        HDL and Assembly
+                    </h2>
+                </div>
+                <div className = 'HardwareBody'>
+                    <p>
+                        - Verilog <br/>
+                        - Assembly 
+                    </p>
+                </div>
+                </div>
 
-
-
-
+           
+            
 
             <div className="links-section">
                 <div className="link-box">
