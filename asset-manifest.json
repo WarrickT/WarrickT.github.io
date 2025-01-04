@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/warrickt.github.io/static/css/main.3f4fe30b.css",
-    "main.js": "/warrickt.github.io/static/js/main.c084971c.js",
-    "static/js/453.eb2f9d6e.chunk.js": "/warrickt.github.io/static/js/453.eb2f9d6e.chunk.js",
-    "static/media/WellnessRoom.png": "/warrickt.github.io/static/media/WellnessRoom.c9d791277374425cdcd1.png",
-    "static/media/ReliefGrid.png": "/warrickt.github.io/static/media/ReliefGrid.1ee1ad8b54721320f7e2.png",
-    "static/media/Graduation.png": "/warrickt.github.io/static/media/Graduation.7e36b82eae2935fdd7a5.png",
-    "static/media/helvetica-neu.ttf": "/warrickt.github.io/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/CodeSky.png": "/warrickt.github.io/static/media/CodeSky.04e26685e36a9db1ba62.png",
-    "static/media/LaBelleAurore.woff2": "/warrickt.github.io/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/Othello.png": "/warrickt.github.io/static/media/Othello.dad94743cf3b00b83d96.png",
-    "static/media/CoolveticaRg-Regular.woff2": "/warrickt.github.io/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/warrickt.github.io/index.html",
-    "main.3f4fe30b.css.map": "/warrickt.github.io/static/css/main.3f4fe30b.css.map",
-    "main.c084971c.js.map": "/warrickt.github.io/static/js/main.c084971c.js.map",
-    "453.eb2f9d6e.chunk.js.map": "/warrickt.github.io/static/js/453.eb2f9d6e.chunk.js.map"
+    "main.css": "/static/css/main.4c28258c.css",
+    "main.js": "/static/js/main.7d7b50af.js",
+    "static/js/453.eb2f9d6e.chunk.js": "/static/js/453.eb2f9d6e.chunk.js",
+    "static/media/WellnessRoom.png": "/static/media/WellnessRoom.c9d791277374425cdcd1.png",
+    "static/media/ReliefGrid.png": "/static/media/ReliefGrid.1ee1ad8b54721320f7e2.png",
+    "static/media/Graduation.png": "/static/media/Graduation.7e36b82eae2935fdd7a5.png",
+    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/CodeSky.png": "/static/media/CodeSky.04e26685e36a9db1ba62.png",
+    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/Othello.png": "/static/media/Othello.dad94743cf3b00b83d96.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/index.html",
+    "main.4c28258c.css.map": "/static/css/main.4c28258c.css.map",
+    "main.7d7b50af.js.map": "/static/js/main.7d7b50af.js.map",
+    "453.eb2f9d6e.chunk.js.map": "/static/js/453.eb2f9d6e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f4fe30b.css",
-    "static/js/main.c084971c.js"
+    "static/css/main.4c28258c.css",
+    "static/js/main.7d7b50af.js"
   ]
 }
