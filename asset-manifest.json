@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.43f7b71a.css",
-    "main.js": "/static/js/main.8aa8b590.js",
-    "static/js/453.eb2f9d6e.chunk.js": "/static/js/453.eb2f9d6e.chunk.js",
-    "static/media/WellnessRoom.png": "/static/media/WellnessRoom.c9d791277374425cdcd1.png",
-    "static/media/ReliefGrid.png": "/static/media/ReliefGrid.1ee1ad8b54721320f7e2.png",
-    "static/media/TetrisHome.png": "/static/media/TetrisHome.1e1877f3bdec829a553f.png",
-    "static/media/Graduation.png": "/static/media/Graduation.7e36b82eae2935fdd7a5.png",
-    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/CodeSky.png": "/static/media/CodeSky.04e26685e36a9db1ba62.png",
-    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/index.html",
-    "main.43f7b71a.css.map": "/static/css/main.43f7b71a.css.map",
-    "main.8aa8b590.js.map": "/static/js/main.8aa8b590.js.map",
-    "453.eb2f9d6e.chunk.js.map": "/static/js/453.eb2f9d6e.chunk.js.map"
+    "main.css": "/WarrickT.github.io/static/css/main.32ebdd2f.css",
+    "main.js": "/WarrickT.github.io/static/js/main.a1033b95.js",
+    "static/js/453.eb2f9d6e.chunk.js": "/WarrickT.github.io/static/js/453.eb2f9d6e.chunk.js",
+    "static/media/WellnessRoom.png": "/WarrickT.github.io/static/media/WellnessRoom.c9d791277374425cdcd1.png",
+    "static/media/ReliefGrid.png": "/WarrickT.github.io/static/media/ReliefGrid.1ee1ad8b54721320f7e2.png",
+    "static/media/TetrisHome.png": "/WarrickT.github.io/static/media/TetrisHome.1e1877f3bdec829a553f.png",
+    "static/media/Graduation.png": "/WarrickT.github.io/static/media/Graduation.7e36b82eae2935fdd7a5.png",
+    "static/media/helvetica-neu.ttf": "/WarrickT.github.io/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/CodeSky.png": "/WarrickT.github.io/static/media/CodeSky.04e26685e36a9db1ba62.png",
+    "static/media/LaBelleAurore.woff2": "/WarrickT.github.io/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/WarrickT.github.io/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/WarrickT.github.io/index.html",
+    "main.32ebdd2f.css.map": "/WarrickT.github.io/static/css/main.32ebdd2f.css.map",
+    "main.a1033b95.js.map": "/WarrickT.github.io/static/js/main.a1033b95.js.map",
+    "453.eb2f9d6e.chunk.js.map": "/WarrickT.github.io/static/js/453.eb2f9d6e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43f7b71a.css",
-    "static/js/main.8aa8b590.js"
+    "static/css/main.32ebdd2f.css",
+    "static/js/main.a1033b95.js"
   ]
 }
