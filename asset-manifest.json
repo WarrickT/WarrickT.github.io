@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.4c28258c.css",
-    "main.js": "/static/js/main.7d7b50af.js",
+    "main.js": "/static/js/main.6c225118.js",
     "static/js/453.eb2f9d6e.chunk.js": "/static/js/453.eb2f9d6e.chunk.js",
     "static/media/WellnessRoom.png": "/static/media/WellnessRoom.c9d791277374425cdcd1.png",
     "static/media/ReliefGrid.png": "/static/media/ReliefGrid.1ee1ad8b54721320f7e2.png",
     "static/media/Graduation.png": "/static/media/Graduation.7e36b82eae2935fdd7a5.png",
+    "static/media/WarrickTsuiCompleteResume.pdf": "/static/media/WarrickTsuiCompleteResume.21ce31c0ed9c285c0abc.pdf",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/CodeSky.png": "/static/media/CodeSky.04e26685e36a9db1ba62.png",
     "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
@@ -13,11 +14,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
     "main.4c28258c.css.map": "/static/css/main.4c28258c.css.map",
-    "main.7d7b50af.js.map": "/static/js/main.7d7b50af.js.map",
+    "main.6c225118.js.map": "/static/js/main.6c225118.js.map",
     "453.eb2f9d6e.chunk.js.map": "/static/js/453.eb2f9d6e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c28258c.css",
-    "static/js/main.7d7b50af.js"
+    "static/js/main.6c225118.js"
   ]
 }
