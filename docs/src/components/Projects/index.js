@@ -48,7 +48,7 @@ const Projects = () => {
                 </div>
                 <div className="project-body">
                     <p>
-                        For a course assignment, I built the classic board game Othello (or Reversi) in my first-year Computer Fundamentals course using C. In addition to building the option for two users to play against each other, I built an automated bot using my knowledge and research of search algorithms. Using the minimaxing searching algorithm, I programmed heuristic functions to evaluate the optimal move the computer can make against the user. <br><br>
+                        For a course assignment, I built the classic board game Othello (or Reversi) in my first-year Computer Fundamentals course using C. In addition to building the option for two users to play against each other, I built an automated bot using my knowledge and research of search algorithms. Using the minimaxing searching algorithm, I programmed heuristic functions to evaluate the optimal move the computer can make against the user. <br></br> <br></br>
                     </p>
                 </div>
             </div>
